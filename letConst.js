@@ -1,11 +1,11 @@
-const habby = "My Habi";
-console.log(habby);
+// const habby = "My Habi";
+// console.log(habby);
 
-const numbers = [23, 24];
-numbers.push(29);
-console.log(numbers[0] = 322);
+// const numbers = [23, 24];
+// numbers.push(29);
+// console.log(numbers[0] = 322);
 
-console.log(numbers);
+// console.log(numbers);
 
 // let variable can be change value in a scope
 let sum  = 0;
