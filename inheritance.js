@@ -5,10 +5,8 @@ class Parent{
     }
 }
 class Baby extends Parent{
-    constructor(name,fatherName, motherName){
-        super();
-        this.fatherName = fatherName;
-        this.motherName = motherName;
+    constructor(name, fatherName, motherName){
+        super(fatherName, motherName);
         this.name = name;
     }
     printInformation() {
@@ -21,7 +19,25 @@ class Baby extends Parent{
     }
 }
 
-const baby = new Baby("anything", "Mother", "kabul");
- baby.printInformation(); 
+const baby = new Baby("Sathi Hossain","Sujon Hossain", "Sharlina Hossain");
+baby.printInformation()
     
+// class Person {
+//     constructor(fatherName, motherName) {
+//         this.fatherName = fatherName;
+//         this.motherName = motherName;
+//     }
+//     print() {
+//         console.log(`
+//            Father Name: ${this.fatherName}
+//            Mother Name: ${this.motherName}
+//         `);
+//     }
+// }
 
+// class Baby{
+//     constructor(name, fatherName, motherName){
+//         super(fatherName, motherName);
+
+//     }
+// }
